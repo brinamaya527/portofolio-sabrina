@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: #001f14;
+  color: #d4ffdf;
+}
+header{
+  background-color: #bfe4cf;
+  padding: 20px 0;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+nav a{
+  text-decoration: none;
+  color: #0e3524;
+  font-weight: 600;
+  background: #d6f7e4;
+  padding: 10px 15px;
+  border-radius: 40px;
+  margin-left: 110px;
+  margin-right: 20px;
+  margin-left: 90px;
+}
+nav a:hover{
+  background: #93d6b6;
+}
+.home{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 163px 0;
+  background-color: #00291c;
+}
+.intro h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: -100px;
+  color: aliceblue;
+}
+.intro h1{
+  font-size: 150px;
+  color: #9affb6;  
+  line-height: 1.1;
+  
+}
+.photo img{
+  width: 300px;
+  border-radius: 60%;
+  margin-top: -60px;
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 130px 0;
+  background-color: #bfe4cf;
+  color: #001f14;
+}
+.about-photo img{
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: -30px; 
+}
+.about-text{
+  max-width: 450px;
+  margin-right: 100px;
+}
+.about-text h2{
+  color: #0e3524;
+  margin-bottom: 50px;
+  font-size: 40px;
+  margin-top: -60px;
+}
+.socials img{
+  width: 35px;
+  margin: 10px 10px;
+}
+.project{
+  text-align: center;
+  padding: 100px 0;
+}
+.project h2{
+  margin-top: 20px;
+  margin-right: 850px;
+  font-size: 50px;
+  color: aliceblue;
+  margin-bottom: 15px;
+}
+.project-grid{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: #002518;
+}
+.card{
+  color: #d4ffdf;
+  padding: 15px;
+  width: 220px;
+  border-radius: 8px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.card img{
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.project2{
+  text-align: center;
+  padding: 100px 0;
+  background-color:#bfe4cf ;
+}
+.project2 h2{
+  margin-top: 20px;
+  margin-right: 850px;
+  font-size: 50px;
+  color: #001f14;
+  margin-bottom: 15px;
+}
+
+.project2-grid{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: #001f14;
+
+}
+
+.card{
+  background: #bcfdde;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+  margin: 20px;
+  color: #001f14;
+  
+}
+
+.card .img{
+  
+  font-weight: 600;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.skills{
+  background: #001f14;
+  padding: 150px 10%;
+}
+.skills h2{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -60px;
+  font-size: 60px;
+}
+.skill{
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.skill span{
+  display: inline-block;
+  width: 200px;
+}
+.bar{
+  background: #083826;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 200px;
+}
+
+.fill{
+  background: #9affb6;
+  width: 85%;
+  height: 100%;
+  border-radius: 10px;
+}
+.fill2{
+  background: #9affb6;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+}
+.fill3{
+  background: #9affb6;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.fill4{
+  background: #9affb6;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+}
+.contact{
+  background: #bfe4cf;
+  color: #055439;
+  text-align: center;
+  padding: 200px 0;
+  font-size: 30px;
+}
+
+.contact-info{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 30PX;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+.icon{
+  background: #9affb6;
+  padding: 10px;
+  border-radius: 10px;
+}
+.back-home{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  text-decoration: none;
+  color: #1b4d3e;
+  background-color: #e6f4ec;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
